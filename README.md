@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 5. CSS
 6. material-ui
 
-This is an ongoing project. I will soon deploy it with links for my other projects. I wll be using netlify, vercel or Heroku to do so. 
+This is an ongoing project. I will soon deploy it with links for my other projects. I will be using Netlify, Vercel or Heroku to do so. 
 
 
 
