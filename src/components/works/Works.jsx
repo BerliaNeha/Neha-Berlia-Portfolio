@@ -7,17 +7,17 @@ export default function Works() {
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
-      title: "A Fullstack User Data app. ",
-      desc: "Tech Stack - Backend routes + endpoints for various HTTP methods Controllers, Middleware, Error handling middleware, a MongoDB database + collections Mongoose methods, Mongoose models + schemas. Relations between collections, Data validation, bcrypt, Authentication with JWT Authorization, Local Storage and Cookies. Enabling registration, login, saving and updating data with a common storage for all user data, accessible to users and admins selectively.",
+      icon: "./assets/globe.png",
+      title: "Fullstack User Data App",
+      desc: "Tech Stack - Backend routes with endpoints for various HTTP methods Controllers, Middleware, Error handling, MongoDB database + collections Mongoose methods, Mongoose models + schemas. Relations between collections, Data validation, bcrypt, Authentication with JWT Authorization, Local Storage and Cookies. Enabling registration, login, saving and updating data with a common storage for all user data, accessible to users and admins selectively.",
       img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
       link: "https://frontend-user-data-app.vercel.app/",
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Single Page Application- Shooting Stars. ",
-      desc: "Tech Stack - React class components, State variables, useEffect, useParams, useContext, useReducer. On this app, users can store their favorite albums from a particular band. Update their list with details of the albums.",
+      icon: "./assets/blacksabbath.jpg",
+      title: "Single Page Application Shooting Stars",
+      desc: "Tech Stack - React class components, State variables, useEffect, useParams, useContext, useReducer. In this app, users can store their favorite albums from a particular band. Update their list with details of the albums.",
       img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
       link: "https://spa-shooting-stars.vercel.app/",
     },
@@ -32,8 +32,8 @@ export default function Works() {
 
     {
       id: "4",
-      icon: "./assets/writing.png",
-      title: "FrontEnd- Basic Interface Project, Chat website",
+      icon: "./assets/chat.png",
+      title: "User Interface Design Website homepage",
       desc: "Tech Stack - Html5, CSS. A webpage with an impressive User interface Design created for a one day project. The page focuses on minimalism, motion design and making it interaction friendly.",
       img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
       link: "https://user-interface-design-website-homepage.vercel.app/",

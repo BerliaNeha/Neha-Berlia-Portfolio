@@ -62,14 +62,14 @@
 
         .left {
           flex: 4;
-          height: 80%;
+          height: 85%;
           display: flex;
           align-items: center;
           justify-content: center;
 
           .leftContainer {
-            width: 90%;
-            height: 70%;
+            width: 95%;
+            height: 905;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -104,13 +104,13 @@
             //   }
             }
             p {
-              font-size: 13px;
+              font-size: 12px;
             //   @include mobile{
             //     display: none;
             //   }
             }
             span {
-              font-size: 12px;
+              font-size: 15px;
               font-weight: 600;
               text-decoration: underline;
               cursor: pointer;
