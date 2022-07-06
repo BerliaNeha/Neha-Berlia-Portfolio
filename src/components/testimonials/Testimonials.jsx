@@ -9,10 +9,10 @@ export default function Testimonials() {
       name: "Jamie Cartwright",
       title: "Web Development Virtual Lecturer / Pod Supervisor-DCI",
       img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "./assets/man.jpg",
       icon: "assets/email.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "Berlia has been a highly engaged and constructive member of the class.She is an inquisitive and confident learner, who has demonstrated not only a passion for writing clean, technically proficient code, but also a drive to understand the principles behind the code she writes.",
     },
     {
       id: 2,
@@ -27,13 +27,13 @@ export default function Testimonials() {
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Petra Kuhlmann Hodick",
+      title: "Senior Curator- SKD",
       img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/youtube.png",
+        "./assets/woman.png",
+      icon: "assets/email.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "...close to the publication time, Neha kept her energy level up and attention to detail. I was impressed by her work ethic and friendly personality and ability to work well under pressure.",
     },
   ];
   return (
