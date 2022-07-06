@@ -8,15 +8,17 @@ export default function ContactForm() {
   const [state, handleSubmit] = useForm("xoqybgnb");
   const [message, setMessage] = useState(false);
   
- const useEffect= ()=>{
-  handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true);
-  };
- } 
+ 
+  // const updateMessage = (e) => {
+  //   e.preventDefault();
+  //   setMessage(true);
+  // };
+ 
 
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+
+    return (<span>Thanks, I'll reply ASAP :) </span>)
+    
   }
   return (
     <form onSubmit={handleSubmit}>
@@ -30,7 +32,7 @@ export default function ContactForm() {
       <button type="submit" disabled={state.submitting}>
         Send
       </button>
-      {message && <span>Thanks, I'll reply ASAP :)</span>}
+      
     </form>
   );
-}
+  }

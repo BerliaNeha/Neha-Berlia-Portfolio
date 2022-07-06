@@ -4,6 +4,9 @@ import ContactForm from '../ContactForm.js';
 import { useState } from "react";
 
 
+// const [contact, setContact] = useState(true);
+
+
 
  export default function Contact() {
   //const [message, setMessage] = useState(false);
