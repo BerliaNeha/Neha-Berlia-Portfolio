@@ -79,7 +79,7 @@ export default function Works() {
               <div className="right">
                 <img
                   src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
-                  alt=""
+                  alt="Image for design on right side of slider"
                 />
               </div>
             </div>
