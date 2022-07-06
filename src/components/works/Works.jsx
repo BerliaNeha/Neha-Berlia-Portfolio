@@ -34,7 +34,7 @@ export default function Works() {
       id: "4",
       icon: "./assets/writing.png",
       title: "FrontEnd- Basic Interface Project, Chat website",
-      desc: "A webpage with an impressive User interface Design created for a one day project. The page focuses on minimalism, motion design and making it interaction friendly.",
+      desc: "Tech Stack - Html5, CSS. A webpage with an impressive User interface Design created for a one day project. The page focuses on minimalism, motion design and making it interaction friendly.",
       img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
       link: "https://user-interface-design-website-homepage.vercel.app/",
      }
