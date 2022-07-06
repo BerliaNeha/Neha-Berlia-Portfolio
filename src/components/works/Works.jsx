@@ -8,36 +8,44 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Fullstack- MongoDB, Authorization",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      title: "A Fullstack User Data app. ",
+      desc: "Tech Stack - Backend routes + endpoints for various HTTP methods Controllers, Middleware, Error handling middleware, a MongoDB database + collections Mongoose methods, Mongoose models + schemas. Relations between collections, Data validation, bcrypt, Authentication with JWT Authorization, Local Storage and Cookies. Enabling registration, login, saving and updating data with a common storage for all user data, accessible to users and admins selectively.",
       img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
-      link: "https://www.google.com/",
+      link: "frontend-user-data-app.vercel.app/",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Single Page Application- Todo List",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "Single Page Application- Shooting Stars. ",
+      desc: "Tech Stack - React class components, State variables, useEffect, useParams, useContext, useReducer. On this app, users can store their favorite albums from a particular band. Update their list with details of the albums.",
       img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-      link: "https://reactcontactmanagerapp.netlify.app",
+      link: "spa-shooting-stars.vercel.app",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Backend- Memory Game",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "Contact-Manager App",
+      desc: "Tech Stack - Reactjs, reactRouter, hook state, axios-react and used Figma as a prototyping tool. Different React topics and its implementation in one single project which allows to add, edit, save, search your contacts from a list of contacts available.",
       img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-      link: "https://www.google.com/",
+      link: "reactcontactmanagerapp.netlify.app/",
     },
 
     {
       id: "4",
       icon: "./assets/writing.png",
       title: "FrontEnd- Basic Interface Project, Chat website",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      desc: "A webpage with an impressive User interface Design created for a one day project. The page focuses on minimalism, motion design and making it interaction friendly.",
       img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-      link: "https://www.google.com/",
-    },
+      link: "https://user-interface-design-website-homepage.vercel.app/",
+     }
+    // {
+    //   id: "4",
+    //   icon: "./assets/writing.png",
+    //   title: "Fullstack- E-Commerce Website",
+    //   desc: "Tech Stack - MUI, Express, Nodejs MongoDB, Models, Authentication, JWT, CRUD, Node.js Stripe, React, Node.js Stripe Implementation, React Slider, Designing, React Slider, Login and Register, Styled components converting responsive design. This is an ongoing project and I am still building it...",
+    //   img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+    //   link: "",
+    // },
   ];
 
   const handleClick = (way) => {
