@@ -1,10 +1,10 @@
-import React, {useRef}from 'react'
+import React, {useRef, useState}from 'react'
 import "./contact.scss"
 import ContactForm from '../ContactForm.js';
-import { useState } from "react";
 
 
-// const [contact, setContact] = useState(true);
+
+ 
 
 
 
@@ -15,6 +15,11 @@ import { useState } from "react";
   //   e.preventDefault();
   //   setMessage(true);
   // };
+// const [isContactVisible, setIsContactVisible] = useState(true);
+
+//  const handleContactVisibility =()=>{
+//   setIsContactVisible (false);
+//  }
 
   return (
     <div className="contact" id="contact">
@@ -28,8 +33,7 @@ import { useState } from "react";
           <p>Feel free to send an e-mail on <a href="mailto:nehaberlia1@gmail.com">nehaberlia1@gmail.com</a></p>
       </div>
       <div className="right">
-        <p>Alternatively, you can also drop-in a mail here!</p>
-        <h2>Contact</h2>
+        
         <ContactForm />
       </div>
     </div>

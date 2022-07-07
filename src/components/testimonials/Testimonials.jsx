@@ -9,7 +9,7 @@ export default function Testimonials() {
       name: "Jamie Cartwright",
       title: "Web Development Virtual Lecturer / Pod Supervisor-DCI",
       img:
-        "./assets/man.jpg",
+        "./assets/jamieCartWright.jpeg",
       icon: "assets/email.png",
       desc:
         "Berlia has been a highly engaged and constructive member of the class.She is an inquisitive and confident learner, who has demonstrated not only a passion for writing clean, technically proficient code, but also a drive to understand the principles behind the code she writes.",
