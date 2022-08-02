@@ -11,7 +11,7 @@ export default function Works() {
       title: "Fullstack User Data App",
       desc: "Tech Stack - Backend routes with endpoints for various HTTP methods Controllers, Middleware, Error handling, MongoDB database + collections Mongoose methods, Mongoose models + schemas. Relations between collections, Data validation, bcrypt, Authentication with JWT Authorization, Local Storage and Cookies. Enabling registration, login, saving and updating data with a common storage for all user data, accessible to users and admins selectively.",
       img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
-      link: "https://frontend-user-data-app.vercel.app/",
+      link: "https://user-data-app.vercel.app/",
     },
     {
       id: "2",
