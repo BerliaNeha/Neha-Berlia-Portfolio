@@ -3,38 +3,56 @@ export const featuredPortfolio = [
       id: 1,
       title: "Social Media App",
       img:
-        "assets/basicImg.jpg",
+        "./assets/transparentLogin.png",
       
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "UX Card Design",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "./assets/hoverExpansion.png",
     },
     {
       id: 3,
       title: "E-commerce Web Design",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "./assets/sellingBurger.jpg",
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "Animation",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "./assets/animation.gif",
     },
     {
       id: 5,
-      title: "Hero Web Design",
+      title: "Transition & Transform",
       img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        "./assets/secretUnfolds.gif",
     },
     {
       id: 6,
-      title: "Banking App",
+      title: "RGB Game",
       img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+        "./assets/rgbGuess.png",
+    },
+    {
+      id: 7,
+      title: "SPA Calculator",
+      img:
+        "./assets/calculator.gif",
+    },
+    {
+      id: 8,
+      title: "Homepage",
+      img:
+        "./assets/mockShop.png",
+    },
+    {
+      id: 9,
+      title: "FlexBox & Media Queries",
+      img:
+        "./assets/responsive.png",
     },
   ];
   
