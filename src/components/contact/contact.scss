@@ -7,9 +7,9 @@
   color: white;
   font-weight: lighter;
 
-  //   @include mobile {
-  //     flex-direction: column;
-  //   }
+  @include mobile {
+    flex-direction: column;
+  }
 
   .left {
     flex: 1;
@@ -57,6 +57,7 @@
     }
 
     form {
+      padding-left: 20px;
       width: 70%;
       height: 70%;
       display: flex;
@@ -69,29 +70,26 @@
         height: 30px;
         font-size: 14px;
         border: none;
-  outline: unset;
-  background: transparent;
-  border-bottom: 1px solid #6f0000;
+        outline: unset;
+        background: transparent;
+        border-bottom: 1px solid #6f0000;
 
-
-
-        // @include mobile {
-        //   width: 200px;
-        //   height: 20px;
-        // }
+        @include mobile {
+          width: 200px;
+          height: 20px;
+        }
       }
 
       textarea {
-        margin-top:15px;
+        margin-top: 15px;
         width: 300px;
         height: 200px;
         font-size: 14px;
-        
 
-        // @include mobile {
-        //   width: 200px;
-        //   height: 100px;
-        // }
+        @include mobile {
+          width: 200px;
+          height: 100px;
+        }
       }
 
       button {

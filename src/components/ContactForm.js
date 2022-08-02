@@ -1,19 +1,12 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-// import emailjs from '@emailjs/browser';
+
 import { useState } from "react";
 
 export default function ContactForm(props) {
   const [state, handleSubmit] = useForm("xoqybgnb");
 
-  //const [message, setMessage] = useState(false);
-
-  // const updateMessage = (e) => {
-  //   e.preventDefault();
-  //   props.handleContactVisibility();
-  //  submit();
-
-  // };
+ 
 
   if (state.succeeded) {
     return <span>Thanks, I'll reply ASAP :) </span>;
