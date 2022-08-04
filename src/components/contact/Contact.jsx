@@ -31,6 +31,12 @@ import ContactForm from '../ContactForm.js';
           <p>Although I'm familiar with using frameworks, I primarily hand-code using HTML5, CSS3, and JavaScript and put emphasis on browser support and performance. In my backend role, understanding the client-server paradigm and coding using architectural patterns such as MVC has been my focus.</p>
 
           <p>Feel free to send an e-mail on <a href="mailto:nehaberlia1@gmail.com">nehaberlia1@gmail.com</a></p>
+
+          <p>https://github.com/BerliaNeha</p>
+          <p>https://portfolio-neha-berlia.vercel.app//</p>
+          <p>https://www.linkedin.com/in/neha-berlia-66b14554/</p>
+
+    
       </div>
       <div className="right">
         
