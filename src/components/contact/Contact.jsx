@@ -2,12 +2,6 @@ import React, {useRef, useState}from 'react'
 import "./contact.scss"
 import ContactForm from '../ContactForm.js';
 
-
-
- 
-
-
-
  export default function Contact() {
   //const [message, setMessage] = useState(false);
 
@@ -34,7 +28,7 @@ import ContactForm from '../ContactForm.js';
 
           <p>https://github.com/BerliaNeha</p>
           <p>https://portfolio-neha-berlia.vercel.app//</p>
-          <p>https://www.linkedin.com/in/neha-berlia-66b14554/</p>
+          <p>https://www.linkedin.com/in/neha-berlia/</p>
 
     
       </div>

@@ -8,13 +8,21 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/globe.png",
+      title: "DEV Together",
+      desc: "Tech Stack - MERN, JavaScript, Material UI, HTML, CSS, RESTful API",
+      img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+      link: "https://dev-together-frontend.vercel.app/",
+    },
+    {
+      id: "2",
+      icon: "./assets/globe.png",
       title: "Fullstack User Data App",
       desc: "Tech Stack - Backend routes with endpoints for various HTTP methods Controllers, Middleware, Error handling, MongoDB database + collections Mongoose methods, Mongoose models + schemas. Relations between collections, Data validation, bcrypt, Authentication with JWT Authorization, Local Storage and Cookies. Enabling registration, login, saving and updating data with a common storage for all user data, accessible to users and admins selectively.",
       img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
       link: "https://user-data-app.vercel.app/",
     },
     {
-      id: "2",
+      id: "3",
       icon: "./assets/blacksabbath.jpg",
       title: "Single Page Application Shooting Stars",
       desc: "Tech Stack - React class components, State variables, useEffect, useParams, useContext, useReducer. In this app, users can store their favorite albums from a particular band. Update their list with details of the albums.",
@@ -22,7 +30,7 @@ export default function Works() {
       link: "https://spa-shooting-stars.vercel.app/",
     },
     {
-      id: "3",
+      id: "4",
       icon: "./assets/writing.png",
       title: "Contact-Manager App",
       desc: "Tech Stack - Material UI, Reactjs, reactRouter, hook state, axios-react and used Figma as a prototyping tool. Different React topics and its implementation in one single project which allows to add, edit, save, search your contacts from a list of contacts available.",
@@ -31,7 +39,7 @@ export default function Works() {
     },
 
     {
-      id: "4",
+      id: "5",
       icon: "./assets/chat.png",
       title: "User Interface Design Website homepage",
       desc: "Tech Stack - Html5, CSS. A webpage with an impressive User interface Design created for a one day project. The page focuses on minimalism, motion design and making it interaction friendly.",
