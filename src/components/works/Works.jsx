@@ -8,7 +8,7 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/globe.png",
-      title: "DEV Together",
+      title: "Project- DEV Together",
       desc: "Tech Stack - MERN, JavaScript, Material UI, HTML, CSS, RESTful API",
       img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
       link: "https://dev-together-frontend.vercel.app/",
@@ -16,7 +16,7 @@ export default function Works() {
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Fullstack User Data App",
+      title: "Project- Fullstack User Data App",
       desc: "Tech Stack - Backend routes with endpoints for various HTTP methods Controllers, Middleware, Error handling, MongoDB database + collections Mongoose methods, Mongoose models + schemas. Relations between collections, Data validation, bcrypt, Authentication with JWT Authorization, Local Storage and Cookies. Enabling registration, login, saving and updating data with a common storage for all user data, accessible to users and admins selectively.",
       img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
       link: "https://user-data-app.vercel.app/",
@@ -24,7 +24,7 @@ export default function Works() {
     {
       id: "3",
       icon: "./assets/blacksabbath.jpg",
-      title: "Single Page Application Shooting Stars",
+      title: "Project- Single Page Application Shooting Stars",
       desc: "Tech Stack - React class components, State variables, useEffect, useParams, useContext, useReducer. In this app, users can store their favorite albums from a particular band. Update their list with details of the albums.",
       img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
       link: "https://spa-shooting-stars.vercel.app/",
@@ -32,7 +32,7 @@ export default function Works() {
     {
       id: "4",
       icon: "./assets/writing.png",
-      title: "Contact-Manager App",
+      title: "Project- Contact-Manager App",
       desc: "Tech Stack - Material UI, Reactjs, reactRouter, hook state, axios-react and used Figma as a prototyping tool. Different React topics and its implementation in one single project which allows to add, edit, save, search your contacts from a list of contacts available.",
       img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
       link: "https://reactcontactmanagerapp.netlify.app/",
@@ -41,7 +41,7 @@ export default function Works() {
     {
       id: "5",
       icon: "./assets/chat.png",
-      title: "User Interface Design Website homepage",
+      title: "Project- User Interface Design Website homepage",
       desc: "Tech Stack - Html5, CSS. A webpage with an impressive User interface Design created for a one day project. The page focuses on minimalism, motion design and making it interaction friendly.",
       img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
       link: "https://user-interface-design-website-homepage.vercel.app/",
@@ -63,11 +63,12 @@ export default function Works() {
   };
 
   return (
+    
     <div className="works" id="works">
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
+      > 
         {data.map((d) => (
           <div className="container">
             <div className="item">
